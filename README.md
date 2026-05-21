@@ -1,8 +1,5 @@
 HAZEFREE PM 2.5 MONITORING PIPELINE
 
-
-
-
 Academic Report: READY GFS 0.25° Downloader Script (Script 1 of 6)
 Author: Ryan Scamehorn
 Date: May 20, 2026
@@ -3157,7 +3154,6 @@ Extension into a reusable framework for similar regional air quality studies.
 
 6. Conclusion
 This pipeline represents a well-integrated, scientifically robust end-to-end system for daily PM2.5 source apportionment. It effectively transforms raw meteorological and satellite data into actionable geospatial intelligence, supporting both operational monitoring and research needs in northern Thailand. The modular design and consistent outputs make it a strong foundation for ongoing air quality analysis.
-
 
 
 
