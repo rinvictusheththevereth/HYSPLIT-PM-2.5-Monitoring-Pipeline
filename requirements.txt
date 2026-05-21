@@ -1,0 +1,14 @@
+# Core dependencies for the HYSPLIT PM2.5 Pipeline
+requests>=2.32.0
+pandas>=2.2.0
+numpy>=1.26.0
+geopandas>=1.0.0
+shapely>=2.0.0
+matplotlib>=3.8.0   # in case you add plots later
+
+# For Script 3 (already using stdlib, but these are nice-to-have)
+argparse  # built-in, listed for clarity
+
+# Optional but recommended for development
+tqdm>=4.66.0
+beautifulsoup4>=4.12.0   # suggested upgrade from regex scraping
