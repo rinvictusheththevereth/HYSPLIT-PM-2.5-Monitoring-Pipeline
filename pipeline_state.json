@@ -1,0 +1,68 @@
+{
+  "last_updated": "2026-05-22T01:45:00+07:00",
+  "timezone": "Asia/Bangkok",
+  
+  "gfs": {
+    "last_successful_date": "20260521",
+    "last_downloaded_files": ["gfs.t00z.pgrb2.0p25.f000", "gfs.t12z.pgrb2.0p25.f000"],
+    "pending_dates": []
+  },
+  
+  "firms": {
+    "last_successful_date": "20260521",
+    "last_downloaded_files": ["fire_nrt_VIIRS_Thailand_20260521.csv"],
+    "pending_dates": []
+  },
+  
+  "backward_trajectories": {
+    "last_run_date": "20260521",
+    "last_run_receptors": ["ChiangMai", "Lampang", "etc"],
+    "completed_days": ["20260520", "20260519", "20260518"]
+  },
+  
+  "forward_trajectories": {
+    "last_run_date": "20260521",
+    "completed_days": ["20260520", "20260519"],
+    "note": "Forward runs may span multiple days"
+  },
+  
+  "receptor_modeling": {
+    "pscf": {
+      "last_run_date": "20260521",
+      "completed_days": ["20260520"]
+    },
+    "cwt": {
+      "last_run_date": "20260521",
+      "completed_days": ["20260520"]
+    }
+  },
+  
+  "daily_summary": {
+    "20260521": {
+      "status": "completed",
+      "gfs_ok": true,
+      "firms_ok": true,
+      "backward_ok": true,
+      "forward_ok": true,
+      "pscf_ok": true,
+      "cwt_ok": true,
+      "processed_at": "2026-05-22T01:30:00+07:00"
+    },
+    "20260520": {
+      "status": "completed",
+      "gfs_ok": true,
+      "firms_ok": true,
+      "backward_ok": true,
+      "forward_ok": false,
+      "pscf_ok": true,
+      "cwt_ok": true,
+      "processed_at": "2026-05-21T23:45:00+07:00"
+    }
+  },
+  
+  "metadata": {
+    "version": "1.0",
+    "description": "Pipeline state tracking for HYSPLIT PM2.5 Monitoring",
+    "next_suggested_run": "20260522"
+  }
+}
