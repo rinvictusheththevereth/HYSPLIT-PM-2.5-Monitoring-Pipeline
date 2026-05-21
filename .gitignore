@@ -1,0 +1,73 @@
+# =============================================
+# Large meteorological & model data (DO NOT COMMIT)
+# =============================================
+*.tar
+*.tar.gz
+*.grib2
+GFS/
+gfs0p25/
+met/
+*.part
+
+# HYSPLIT working and output directories
+hysplit_runs*/
+hysplit_runs_backward/
+hysplit_runs_forward/
+TRJ*/
+TRAJ*/
+tdump*
+*.tdump
+CONTROL*
+*.VM
+*.CD
+*.exe   # if you ever commit HYSPLIT binaries (you shouldn't)
+
+# Generated outputs
+outputs/
+results/
+GeoJSON/
+*.geojson
+*.xlsx
+*.csv
+
+# Temporary & log files
+temp/
+tmp/
+logs/
+*.log
+
+# Python cache and environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Configuration files you might want to ignore (uncomment if you create them)
+# config.toml
+# settings.py
+# .env
+
+# Very large sample data (keep only small ones if needed)
+# PM2.5*.xlsx
