@@ -1,0 +1,16 @@
+name: hysplit-pm25
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - requests
+  - pandas
+  - numpy
+  - geopandas
+  - shapely
+  - matplotlib
+  - pip
+  - pip:
+    - tqdm
+    - beautifulsoup4
