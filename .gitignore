@@ -64,10 +64,7 @@ Thumbs.db
 *.swo
 *~
 
-# Configuration files you might want to ignore (uncomment if you create them)
-# config.toml
-# settings.py
-# .env
+
 
 # Very large sample data (keep only small ones if needed)
 # PM2.5*.xlsx
